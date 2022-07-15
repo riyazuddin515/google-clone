@@ -1,0 +1,49 @@
+.search-result-header{
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+.search-result-header .google-branding img{
+    width: 150px;
+    margin-right: 20px;
+}
+
+.search-options, 
+.left, 
+.right,
+.option{
+    display: flex;
+}
+
+.right{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-options{
+    margin-left: 15px;
+}
+
+.option{
+    margin-right: 20px;
+}
+.right p{
+    margin-left: 10px;
+}
+
+.search-options{
+    width: 671px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.result-container{
+    width: 50%;
+    margin-left: 15%;
+}
+
+.search-stat{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
